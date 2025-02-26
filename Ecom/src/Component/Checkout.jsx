@@ -16,7 +16,7 @@ const Checkout = () => {
     const handlePayment = async () => {
         setLoading(true);
         try {
-            const response = await axios.post("https://zoroz-backend-w2wh.onrender.com/api/checkout", {
+            const response = await axios.post("https://shoppingweb-uxfk.onrender.com/api/checkout", {
                 items: state.items,
                 totalAmount: totalAmount,
             });
