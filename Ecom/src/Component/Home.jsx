@@ -7,7 +7,7 @@
 //   const [products, setProducts] = useState([]);
 
 //   useEffect(() => {
-//     axios.get("http://localhost:5000/api/products").then(response => {
+//     axios.get("https://shoppingweb-uxfk.onrender.com/api/products").then(response => {
 //       setProducts(response.data);
 //     });
 //   }, []);
